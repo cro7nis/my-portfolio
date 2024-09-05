@@ -13,7 +13,7 @@ profiles:
     myportfolio:
       resources:
         cpu:
-          units: 6
+          units: 2
         memory:
           size: 4Gi
         storage:
