@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+          type="image/png" 
+          href="./img/favicon.webp">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cro7</title>
+<link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+
+<div class="sidenav">
+    <div class="navblock">
+        <div class="navblock_text">
+            <a href="./index.html">About</a>
+            <a style="color:#3498DB" href="./portfolio.html">Portfolio</a>
+            <a href="./blog.html">Blog</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 cro7</p>
+    </div>
+</div>
+
+<!-- 
+
+For more information aboput flexbox CSS centering of project posts
+https://www.w3schools.com/css/css3_flexbox_container.asp 
+
+-->
+
+<div class="main">
+  <h2>Portfolio</h2>
+  <p>A selection of my ML and web3 related repos.</p>
+
+    <div class="portfolio-container">
+        <div class="portfolio-container_text">        
+            <h3 class="portfolio_accent">Llama3 assistant hosted on Akash Network</h3>
+                
+            <p>Llama 3 assistant powerered by Ollama and Streamlit. Special thanks to Meta for releasing Llama 3.
+                The assistant uses the 8B-parameter model which is fast and requires ~5GB VRAM and it can even run on CPU with reasonable speed.
+                The project is developed for the "Create and deploy guide" zealy task which is hosted by Akash.</p>
+                
+            <p><a target="blank" href="https://github.com/cro7nis/llama3-assistant">Github Source</a></p>
+        </div>
+        <div class="portfolio-container_text">
+            <img class="portfolio_image" src="./img/llama3.gif" alt="Llama3 assistant">
+        </div>
+    </div>
+
+
+    <div class="portfolio-container">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Text-to-image model hosted on Akash Network</h3>
+
+            <p> Text-to-image app powerered by black-forest-labs /FLUX.1-schnell.
+                The project is developed for the Flux-schnell model on Akash zealy task which is hosted by Akash.
+                Instead of using the replicate api this project hosts the model from hugging face directly. </p>
+
+            <p><a target="blank" href="https://github.com/cro7nis/flux-schnell-on-akash">Github Source</a></p>
+        </div>
+        <div class="portfolio-container_text">
+            <img class="portfolio_image" src="./img/t2i.png" alt="text to image">
+        </div>
+    </div>
+  
+    <div class="portfolio-container">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Subtitle Generator hosted on Akash Network</h3>
+                
+            <p> Automatic subtitle generator using faster whisper repo.
+                Faster whisper is a remplementation of OpenAI's Whisper using CTranslate2 for faster inference.
+                The Subtible generator consists of an API that is built with FastAPI and a UI powered by Streamlit. </p>
+                
+            <p><a target="blank" href="https://github.com/cro7nis/subtitle-generator">Github Source</a></p>
+        </div>
+        <div class="portfolio-container_text">
+            <img class="portfolio_image" src="./img/sbg.png" alt="subtitle generator">
+        </div>
+    </div>
+
+
+    <div class="portfolio-container">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Text-to-Speech model hosted on Akash Network</h3>
+
+            <p> Text-to-Speech app powerered by parler-tts library and Streamlit.
+                The project is developed for the Deploy a TTS solution on Akash zealy task which is hosted by Akash </p>
+
+            <p><a target="blank" href="https://github.com/cro7nis/parler-tts">Github Source</a></p>
+        </div>
+        <div class="portfolio-container_text">
+            <img class="portfolio_image" src="./img/t2s.png" alt="text2speech">
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html> 

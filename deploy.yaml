@@ -1,0 +1,31 @@
+---
+version: "2.0"
+services:
+  myportfolio:
+    image: cro7/my-portfolio:0.0.1
+    expose:
+      - port: 80
+        as: 80
+        to:
+          - global: true
+profiles:
+  compute:
+    myportfolio:
+      resources:
+        cpu:
+          units: 6
+        memory:
+          size: 4Gi
+        storage:
+          - size: 1Gi
+  placement:
+    dcloud:
+      pricing:
+        myportfolio:
+          denom: uakt
+          amount: 1000
+deployment:
+  myportfolio:
+    dcloud:
+      profile: myportfolio
+      count: 1
