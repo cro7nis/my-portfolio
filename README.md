@@ -2,7 +2,7 @@
 
 A portfolio website written entirely in HTML and CSS. It is designed to be fast and easy to maintain
 
-Currently hosted on Akash in the following link *fbjao4n16hen791jih8lptdk1k.ingress.d3akash.cloud*
+Currently hosted on Akash in the following link [fbjao4n16hen791jih8lptdk1k.ingress.d3akash.cloud](fbjao4n16hen791jih8lptdk1k.ingress.d3akash.cloud)
 
 ## Deploy on Akash guide <img src="./assets/akash-logo.png" alt="drawing" width=20 height=20/>
 
