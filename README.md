@@ -1,8 +1,31 @@
 # My Portoflio
 
+A portfolio website written entirely in HTML and CSS. It is designed to be fast and easy to maintain
+
+## Deploy on Akash guide <img src="./assets/akash-logo.png" alt="drawing" width=20 height=20/>
+
+
+- Create and fund a Keplr or Leap wallet
+  - [Keplr wallet](https://akash.network/docs/getting-started/token-and-wallets/#keplr-wallet)
+  - [Leap wallet](https://akash.network/docs/getting-started/token-and-wallets/#leap-cosmos-wallet)
+- Visit https://deploy.cloudmos.io/
+- Connect your wallet
+  - You need to have at least 0.5 AKT in your wallet
+- Press the deploy button
+- Select "Build your template"
+- (Optional) Name your deployment
+- Select YAML and paste the [deploy.yaml](deploy.yaml) contents
+- Press "Create Deployment"
+- Accept wallet transaction
+- Review bids and select provider
+- Accept provider transaction
+- Go to LEASES and press the URI
+- Check the [Akash docs](https://akash.network/docs/deployments/cloudmos-deploy/) if you have and questions
+- Done
+
 <br />
 
-### Run this site locally using Docker
+## Run this site locally using Docker
 
 Note that Docker must already be installed to your local machine. ([Docker install instructions](https://docs.docker.com/get-docker/)).
 
@@ -13,7 +36,7 @@ The website is now reachable at http://localhost:8080 in your browser.
 
 <br />
 
-## Desktop Page Layouts
+# Desktop Page Layouts
 
 - About
 - Portfolio
