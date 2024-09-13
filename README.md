@@ -2,7 +2,13 @@
 
 A portfolio website written entirely in HTML and CSS. It is designed to be fast and easy to maintain
 
+Currently hosted on Akash in the following link *fbjao4n16hen791jih8lptdk1k.ingress.d3akash.cloud*
+
 ## Deploy on Akash guide <img src="./assets/akash-logo.png" alt="drawing" width=20 height=20/>
+
+
+https://github.com/user-attachments/assets/6b05b8d7-4a0b-4caa-ae04-070b7055d193
+
 
 
 - Create and fund a Keplr or Leap wallet
